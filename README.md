@@ -55,7 +55,7 @@ Create a cluster on MongoDB Atlas and get the connection string. Update the conn
 MONGO_URI = 'your_mongodb_atlas_connection_string'
 ```
 
-### 6. Run the Application
+### 5. Run the Application
 
 ```
 python app.py
