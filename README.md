@@ -2,16 +2,6 @@
 
 This is a Flask application that performs CRUD (Create, Read, Update, Delete) operations on a MongoDB database for a `User` resource using a RESTful API.
 
-## Features
-
-- **Create** a new user
-- **Read** all users or a single user by ID
-- **Update** a user by ID
-- **Delete** a user by ID
-- MongoDB integration with PyMongo
-- Scalable and modular project structure
-- RESTful API design
-
 ## Prerequisites
 
 - Python 3.x
