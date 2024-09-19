@@ -38,8 +38,16 @@ Make sure MongoDB is running. You can either use a local MongoDB instance or a r
 For local MongoDB:
 Ensure MongoDB is running on the default port 27017:
 
-```
+<!-- ```
 mongod --dbpath /path/to/your/db
+``` -->
+
+For MongoDB Atlas:
+Create a cluster on MongoDB Atlas and get the connection string. Update the connection string in config.py:
+
+```
+# config.py
+MONGO_URI = 'your_mongodb_atlas_connection_string'
 ```
 
 ### 6. Run the Application
