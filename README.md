@@ -36,7 +36,12 @@ pip install -r requirements.txt
 Make sure MongoDB is running. You can either use a local MongoDB instance or a remote one (e.g., MongoDB Atlas).
 
 For local MongoDB:
-Ensure MongoDB is running on the default port 27017:
+Ensure MongoDB is running on the default port 27017: 
+Ideally I encourage you to use local connection string
+
+```
+mongodb://localhost:27017/
+```
 
 <!-- ```
 mongod --dbpath /path/to/your/db
